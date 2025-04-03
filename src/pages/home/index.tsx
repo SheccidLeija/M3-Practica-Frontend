@@ -10,7 +10,7 @@ export default function HomePage() {
       <Stack width="85%" maxWidth="500px" m={1.5}>
         <Stack textAlign="center">
           <Typography variant="h4" fontWeight="bold">
-            Actividad Github
+            Actividad Github1
           </Typography>
           <Typography variant="h6">Bienvenide</Typography>
         </Stack>
