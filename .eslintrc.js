@@ -7,6 +7,11 @@ module.exports = {
       jsx: true
     }
   },
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
+  },
   settings: {
     react: {
       version: "detect"
@@ -20,5 +25,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
-
+  rules: {
+    "react/react-in-jsx-scope": "off"
+  }
 };
