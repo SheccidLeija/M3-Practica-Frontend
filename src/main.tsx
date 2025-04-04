@@ -8,11 +8,11 @@ import RouterApp from './router';
 import React from 'react';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/M3-Practica-Frontend">
     <ThemeProvider theme={theme}>
       <CssBaseline />
-
       <RouterApp />
     </ThemeProvider>
   </BrowserRouter>,
 );
+
